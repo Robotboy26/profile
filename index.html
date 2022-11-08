@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <style>
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+  </style>
 
 <head>
   <meta charset="utf-8">
@@ -13,11 +30,19 @@
     <h1 style="font-size: 40px;">Welcome to my website</h1>
   <h1>I AM ROBOT</h1>
 </div>
+  <div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="right">Link</a>
+    <h1></h1>
+  </div>
+  <div class="site-body">
+    <h1>hello world</h1>
+  </div>
+  
   <h2>I have been working on something very cool check it out!</h2>
   <a href="https://github.com/Robotboy26/myOS"><p>very cool website!</p></a>
-  <div class="about me">
-    <h1>This is a test</h1>
-  </div>
   <script src="script.js"></script>
 </body>
 
