@@ -1,4 +1,40 @@
-html, body {
-  height: 100%;
-  width: 100%;
+html * {
+  margin: 0;
+  padding: 0;
+
+}
+
+.header * {
+  padding: 8px;
+  text-align: center;
+  background: #bea925;
+  color: DarkRed;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+body {
+  background-image: url('background.png');
+  width: auto;
+  height: auto;
+  
+}
+
+h1 {
+  text-align: center;
+  background-color:#bea925; 
+  color:DarkRed;
+}
+
+h2 {
+  text-align: center;
+  background-color:DarkRed;
+}
+
+p {
+  text-align: center;
+  color: White;
+  background-color: Black;
 }
